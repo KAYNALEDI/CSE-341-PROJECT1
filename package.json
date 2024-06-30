@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/KAYNALEDI/CSE-341-PROJECT1/issues"
   },
-  "homepage": "https://github.com/KAYNALEDI/CSE-341-PROJECT1#readme"
+  "homepage": "https://github.com/KAYNALEDI/CSE-341-PROJECT1#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
