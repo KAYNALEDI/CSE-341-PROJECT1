@@ -1,0 +1,19 @@
+{
+  "name": "cse-341-project1",
+  "version": "1.0.0",
+  "description": "My First Project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KAYNALEDI/CSE-341-PROJECT1.git"
+  },
+  "author": "Nokwazi Kunene",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KAYNALEDI/CSE-341-PROJECT1/issues"
+  },
+  "homepage": "https://github.com/KAYNALEDI/CSE-341-PROJECT1#readme"
+}
