@@ -10,8 +10,11 @@ app.use(bodyParser.json());
 // Simple route for testing 
 app.get('/', (req, res) => { res.send('Hello World'); });
 
-const port = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8080;
+app.listen(PORT, () => {
+    console.log(`Seever is running on port ${PORT}`);
+});
 
 app.use('/', require(',/routes'));
 
-app.listen(port, () => {console.log('running on port ${port}')});
+// app.listen(PORT, () => {console.log('running on port ${PORT}')});
